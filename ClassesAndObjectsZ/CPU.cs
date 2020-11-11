@@ -21,5 +21,26 @@ namespace ClassesAndObjectsZ
             this.name = name;
 
         }
+
+        //Member Methods
+        public void ProcessInstall(Applications app, HardDrive hardDrive, RAM ram)
+        {
+            if(CheckRequirements(app, hardDrive, ram))
+            {
+                hardDrive.ApplicationsInHardDrive.Add(app);
+            }
+        }
+
+        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram)
+        {
+            if (app.RequiredRAM < ram.totalGigabytes && app.RequiredStorage < hardDrive.availableStorage)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

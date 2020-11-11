@@ -30,5 +30,15 @@ namespace ClassesAndObjectsZ
 
         }
 
+        //Member Methods
+        public void InstallApplication(Applications newApplicaiotn)
+        {
+            Processor.ProcessInstall(newApplicaiotn, Storage, TemporaryMemory);
+            
+            
+           
+
+        }
+
     }
 }

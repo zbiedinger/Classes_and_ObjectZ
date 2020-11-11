@@ -13,6 +13,7 @@ namespace ClassesAndObjectsZ
         //Member Variables
         public double totalStorage;
         public double availableStorage;
+        public List<Applications> ApplicationsInHardDrive;
 
         //Constructor
         public HardDrive(double totalStorage, double availableStorage)
