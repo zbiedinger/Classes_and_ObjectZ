@@ -15,14 +15,14 @@ namespace ClassesAndObjectsZ
         public double RequiredStorage;
 
         //Constructor
-        public abstract Applications()
-        {
-            ApplicationName = "Slack";
-            ApplicationsType = "Messaging service";
-            RequiredRAM = 4.0; //In gigabytes
-            RequiredStorage = 0.512; // In Gigabytes
-                
-        }
+
+        //public abstract Applications()
+        //{
+        //    ApplicationName = "Slack";
+        //    ApplicationsType = "Messaging service";
+        //    RequiredRAM = 4.0; //In gigabytes
+        //    RequiredStorage = 0.512; // In Gigabytes
+        //}
 
 
     }
