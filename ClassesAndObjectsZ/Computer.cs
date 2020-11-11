@@ -8,5 +8,6 @@ namespace ClassesAndObjectsZ
 {
     class Computer
     {
+        
     }
 }

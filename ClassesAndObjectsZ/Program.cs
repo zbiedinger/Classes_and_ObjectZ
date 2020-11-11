@@ -10,6 +10,7 @@ namespace ClassesAndObjectsZ
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
